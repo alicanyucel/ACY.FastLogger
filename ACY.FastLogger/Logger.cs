@@ -1,4 +1,7 @@
-﻿namespace ACY.Logging
+﻿using System;
+using System.IO;
+
+namespace ACY.Logging
 {
     public interface ILoggerService
     {

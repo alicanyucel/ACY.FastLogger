@@ -2,8 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <AssemblyName>ACY.Logging</AssemblyName>
+    <RootNamespace>ACY.Logging</RootNamespace>
+
+    <PackageId>ACY.Logging</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Ali Can Yücel</Authors>
+    <Company>ACY</Company>
+    <Description>Custom logging class library without external dependencies.</Description>
+    <PackageTags>Logging;Structured;ACY</PackageTags>
+    <RepositoryUrl>https://github.com/alicanyucel/ACY.Logging</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/alicanyucel/ACY.FastLogger</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
 </Project>
